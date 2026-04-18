@@ -57,4 +57,4 @@ Com isso, o IAGO contribui para melhorar a educação financeira das pessoas, aj
 
 ## Link do Vídeo
 
-[Adicionar após gravação]
+(https://drive.google.com/drive/folders/1pB996ePBu-_33bvOeUMLMJ_rVpJKJzbG?usp=sharing)
