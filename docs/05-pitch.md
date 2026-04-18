@@ -1,44 +1,60 @@
 # Pitch (3 minutos)
 
-> [!TIP]
-> Você pode usar alguns slides pra apoiar no seu Pitch e mostrar sua solução na prática.
- 
 ## Roteiro Sugerido
 
 ### 1. O Problema (30 seg)
-> Qual dor do cliente você resolve?
 
-[Sua descrição aqui]
+Muitas pessoas têm dificuldade em organizar suas finanças e alcançar objetivos como economizar dinheiro, viajar ou sair de dívidas.
+
+Na maioria das vezes, elas não sabem exatamente para onde o dinheiro está indo e acabam tomando decisões sem planejamento.
+
+---
 
 ### 2. A Solução (1 min)
-> Como seu agente resolve esse problema?
 
-[Sua descrição aqui]
+Para resolver esse problema, desenvolvi o IAGO, um agente financeiro inteligente focado em planejamento financeiro pessoal.
+
+O IAGO analisa o histórico de transações, o perfil do cliente e seu comportamento financeiro para oferecer recomendações personalizadas.
+
+Ele atua de forma proativa, identificando gastos excessivos, sugerindo ajustes e ajudando o usuário a manter o foco nas suas metas financeiras.
+
+Além disso, o agente foi projetado com foco em segurança, evitando alucinações e sempre baseando suas respostas nos dados disponíveis.
+
+---
 
 ### 3. Demonstração (1 min)
-> Mostre o agente funcionando (pode ser gravação de tela)
 
-[Descreva o que será mostrado]
+Na demonstração, eu mostro um chatbot interativo onde o usuário pode fazer perguntas sobre suas finanças.
+
+Por exemplo:
+- Pode perguntar sobre seus gastos
+- Pode pedir ajuda para economizar dinheiro
+- Ou solicitar orientações financeiras
+
+O agente responde de forma clara, personalizada e baseada nos dados, simulando um consultor financeiro digital.
+
+---
 
 ### 4. Diferencial e Impacto (30 seg)
-> Por que essa solução é inovadora e qual é o impacto dela na sociedade?
 
-[Sua descrição aqui]
+O principal diferencial do IAGO é a combinação entre personalização, clareza e confiabilidade.
+
+Diferente de chatbots comuns, ele não apenas responde perguntas, mas ajuda o usuário a tomar decisões financeiras mais conscientes.
+
+Com isso, o IAGO contribui para melhorar a educação financeira das pessoas, ajudando elas a organizarem melhor sua vida financeira e alcançarem seus objetivos de forma mais segura e sustentável.
 
 ---
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [x] Duração máxima de 3 minutos
+- [x] Problema claramente definido
+- [x] Solução demonstrada na prática
+- [x] Diferencial explicado
+- [x] Áudio e vídeo com boa qualidade
 
 ---
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
-[Link do vídeo]
+[Adicionar após gravação]
