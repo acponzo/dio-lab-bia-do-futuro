@@ -29,14 +29,14 @@ Podem ser ajustados para representar diferentes perfis de clientes, níveis de r
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os arquivos CSV e JSON são carregados no início da aplicação e utilizados como base de conhecimento do agente.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-Os arquivos CSV e JSON são carregados no início da aplicação e utilizados como base de conhecimento do agente.
+Os dados são inseridos dinamicamente como contexto nas interações com o modelo de linguagem.
 
-Esses dados são processados e organizados para facilitar a análise do comportamento financeiro do cliente.
+O agente consulta essas informações para gerar respostas personalizadas, evitando respostas genéricas e garantindo maior precisão nas recomendações.
 
 ---
 
