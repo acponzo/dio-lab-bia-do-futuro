@@ -25,7 +25,7 @@ Pessoas que desejam organizar suas finanças, economizar dinheiro e atingir obje
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Iago
+IAGO
 
 ### Personalidade
 Consultivo, educativo e empático. Atua como um consultor financeiro pessoal que orienta sem julgar
@@ -71,7 +71,6 @@ flowchart TD
 ## Segurança e Anti-Alucinação
 
 ### Estratégias Adotadas
-
 - [x] Agente só responde com base nos dados fornecidos
 - [x] Respostas incluem base nas informações disponíveis
 - [x] Quando não sabe, admite e informa limitação
@@ -84,3 +83,5 @@ flowchart TD
 - Não acessa dados em tempo real
 - Depende da qualidade dos dados fornecidos
 - Pode não prever eventos financeiros inesperados
+
+Isso permite que o cliente tome decisões financeiras mais conscientes e sustentáveis ao longo do tempo.
