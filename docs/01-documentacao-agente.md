@@ -5,40 +5,42 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitos clientes têm dificuldade em organizar suas finanças e alcançar metas como viajar, comprar bens ou sair de dívidas.
+
+Eles não sabem exatamente para onde o dinheiro está indo e acabam não conseguindo planejar o futuro financeiro.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente analisa o histórico de transações, comportamento financeiro e perfil do cliente para sugerir planos personalizados.
+Ele atua de forma proativa, alertando sobre gastos excessivos, sugerindo ajustes e ajudando o cliente a manter o foco nas metas financeiras.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas que desejam organizar suas finanças, economizar dinheiro e atingir objetivos financeiros de forma mais estruturada.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Iago
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+Consultivo, educativo e empático. Atua como um consultor financeiro pessoal que orienta sem julgar
 
-[Sua descrição aqui]
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Acessível, claro e amigável, evitando termos técnicos complexos.
+
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
-
+- Saudação: "Olá! Vamos organizar suas finanças hoje?"
+- Confirmação: "Entendi! Vou analisar seus dados para te ajudar melhor."
+- Erro/Limitação: "Não encontrei informações suficientes para essa análise, mas posso te orientar com base no que tenho."
 ---
 
 ## Arquitetura
@@ -59,10 +61,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Chatbot interativo (ex: Streamlit) |
+| LLM | Modelo de linguagem via API (ex: GPT) |
+| Base de Conhecimento | Dados do cliente em CSV e JSON |
+| Validação | Regras para evitar alucinações e garantir consistência |
 
 ---
 
@@ -70,12 +72,15 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados fornecidos
+- [x] Respostas incluem base nas informações disponíveis
+- [x] Quando não sabe, admite e informa limitação
+- [x] Não faz recomendações sem dados suficientes
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não substitui um consultor financeiro profissional
+- Não acessa dados em tempo real
+- Depende da qualidade dos dados fornecidos
+- Pode não prever eventos financeiros inesperados
